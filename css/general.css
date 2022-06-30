@@ -12,6 +12,9 @@
   --white: hsl(0, 0%, 100%);
   --white-shade-primary: hsla(0, 0%, 100%, 0.75);
   --white-shade-secondary: hsla(0, 0%, 100%, 0.6);
+
+  /* BORDER RADIUS */
+  --card-br: 10px;
 }
 
 body {

@@ -14,7 +14,7 @@
     />
     <link rel="stylesheet" href="./develop/css/main.css" />
 
-    <style>
+    <!-- <style>
       * {
         border: 1px solid white;
       }
@@ -25,39 +25,44 @@
       div {
         border: 1px solid hsl(0, 100%, 76%);
       }
-    </style>
+    </style> -->
   </head>
   <body
-    class="bg-black text-white min-h-screen flex items-center justify-center"
+    class="bg-veryDarkBlue text-neutral font-inter min-h-screen flex items-center justify-center"
   >
-    <!-- <body class="min-h-screen flex items-center justify-center"> -->
     <main>
       <!-- STATS COMPONENT -->
-      <div class="" id="statComponent">
+      <div
+        class="w-80 flex flex-col-reverse rounded-xl bg-darkDesaturatedBlue"
+        id="statComponent"
+      >
         <!-- TEXT CONTENT -->
-        <div>
+        <div class="container mx-auto px-2">
           <!-- title -->
-          <h1>Get <span>insights</span> that help your business grow.</h1>
+          <h1 class="font-bold text-3xl mt-12 mb-4 text-center">
+            Get <span class="text-softViolet">insights</span> that help your
+            business grow.
+          </h1>
           <!-- paragraph -->
-          <p>
+          <p class="text-mainParaWhite mb-10 text-center">
             Discover the benefits of data analytics and make better decisions
             regarding revenue, customer experience, and overall efficiency
           </p>
           <!-- statistics -->
-          <div>
+          <div class="flex flex-col items-center">
             <!-- companies -->
-            <div>
-              <span>10k+</span>
+            <div class="mb-5">
+              <span class="font-bold text-2xl block text-center">10k+</span>
               <span>companies</span>
             </div>
             <!-- templates -->
-            <div>
-              <span>314</span>
+            <div class="mb-5">
+              <span class="font-bold text-2xl block text-center">314</span>
               <span>templates</span>
             </div>
             <!-- queries -->
-            <div>
-              <span>12m+</span>
+            <div class="mb-5">
+              <span class="font-bold text-2xl block text-center">12m+</span>
               <span>queries</span>
             </div>
           </div>
@@ -65,7 +70,7 @@
 
         <!-- IMAGE -->
         <div
-          class="bg-stats-image-mobile bg-auto w-full h-96 bg-no-repeat"
+          class="bg-stats-image-mobile bg-contain w-full h-60 bg-no-repeat"
         ></div>
       </div>
     </main>

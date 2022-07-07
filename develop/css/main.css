@@ -679,7 +679,7 @@ video {
 }
 
 .bg-stats-image-mobile {
-  background-image: url('../develop/assets/images/image-header-mobile.jpg');
+  background-image: url('/develop/assets/images/image-header-mobile.jpg');
 }
 
 .bg-contain {

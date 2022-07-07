@@ -1112,3 +1112,58 @@ video {
     will-change: auto;
   }
 }
+
+@media (min-width: 1440px) {
+  .xl\:mb-6 {
+    margin-bottom: 1.5rem;
+  }
+
+  .xl\:mb-20 {
+    margin-bottom: 5rem;
+  }
+
+  .xl\:mb-2 {
+    margin-bottom: 0.5rem;
+  }
+
+  .xl\:h-\[25\.9375rem\] {
+    height: 25.9375rem;
+  }
+
+  .xl\:h-auto {
+    height: auto;
+  }
+
+  .xl\:w-\[67\.625rem\] {
+    width: 67.625rem;
+  }
+
+  .xl\:flex-row {
+    flex-direction: row;
+  }
+
+  .xl\:items-start {
+    align-items: flex-start;
+  }
+
+  .xl\:justify-between {
+    justify-content: space-between;
+  }
+
+  .xl\:rounded-tl-none {
+    border-top-left-radius: 0px;
+  }
+
+  .xl\:rounded-bl-none {
+    border-bottom-left-radius: 0px;
+  }
+
+  .xl\:bg-cover {
+    background-size: cover;
+  }
+
+  .xl\:px-20 {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+}

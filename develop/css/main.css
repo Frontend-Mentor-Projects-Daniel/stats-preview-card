@@ -663,15 +663,6 @@ video {
   border-top-right-radius: 0.75rem;
 }
 
-.border-b-2 {
-  border-bottom-width: 2px;
-}
-
-.border-b-darkDesaturatedBlue {
-  --tw-border-opacity: 1;
-  border-bottom-color: hsl(244 38% 16% / var(--tw-border-opacity));
-}
-
 .bg-veryDarkBlue {
   --tw-bg-opacity: 1;
   background-color: hsl(233 47% 7% / var(--tw-bg-opacity));
@@ -688,7 +679,7 @@ video {
 }
 
 .bg-stats-image-mobile {
-  background-image: url('/develop/assets/images/image-header-mobile.jpg');
+  background-image: url('../develop/assets/images/image-header-mobile.jpg');
 }
 
 .bg-contain {

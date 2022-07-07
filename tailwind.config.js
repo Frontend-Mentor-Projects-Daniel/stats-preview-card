@@ -13,12 +13,12 @@ module.exports = {
       xl: '1440px',
     },
     extend: {
-      backgroundImage: {
+      backgroundImage: (theme) => ({
         'stats-image-mobile':
           "url('/develop/assets/images/image-header-mobile.jpg')",
         'stats-image-desktop':
           "url('/develop/assets/images/image-header-desktop.jpg')",
-      },
+      }),
       colors: {
         veryDarkBlue: 'hsl(233, 47%, 7%)',
         darkDesaturatedBlue: 'hsl(244, 38%, 16%)',

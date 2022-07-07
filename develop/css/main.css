@@ -767,6 +767,11 @@ video {
   background-color: hsl(233 47% 7% / var(--tw-bg-opacity));
 }
 
+.bg-softViolet {
+  --tw-bg-opacity: 1;
+  background-color: hsl(277 64% 61% / var(--tw-bg-opacity));
+}
+
 .bg-stats-image-mobile {
   background-image: url('/develop/assets/images/image-header-mobile.jpg');
 }
@@ -851,6 +856,30 @@ video {
 
 .text-mainParaWhite {
   color: hsla(0, 0%, 100%, 0.75);
+}
+
+.opacity-5 {
+  opacity: 0.05;
+}
+
+.opacity-60 {
+  opacity: 0.6;
+}
+
+.opacity-50 {
+  opacity: 0.5;
+}
+
+.opacity-30 {
+  opacity: 0.3;
+}
+
+.opacity-90 {
+  opacity: 0.9;
+}
+
+.bg-blend-multiply {
+  background-blend-mode: multiply;
 }
 
 /* Define all custom CSS here */

@@ -33,18 +33,20 @@
     <main>
       <!-- STATS COMPONENT -->
       <div
-        class="w-80 flex flex-col-reverse rounded-xl bg-darkDesaturatedBlue"
+        class="bg-darkDesaturatedBlue w-80 rounded-xl flex flex-col-reverse md:flex-row md:w-auto md:h-[25.9375rem]"
         id="statComponent"
       >
         <!-- TEXT CONTENT -->
         <div class="container mx-auto px-2">
           <!-- title -->
-          <h1 class="font-bold text-3xl mt-12 mb-4 text-center">
+          <h1
+            class="font-bold text-3xl mt-12 mb-4 text-center md:mb-0 md:mt-10"
+          >
             Get <span class="text-softViolet">insights</span> that help your
             business grow.
           </h1>
           <!-- paragraph -->
-          <p class="text-mainParaWhite mb-10 text-center">
+          <p class="text-mainParaWhite mb-10 text-center md:mb-0 md:mt-2">
             Discover the benefits of data analytics and make better decisions
             regarding revenue, customer experience, and overall efficiency
           </p>
@@ -71,8 +73,7 @@
         <!-- IMAGE -->
         <!-- an exact height was required here -->
         <div
-          style="height: 14.7rem"
-          class="bg-stats-image-mobile bg-contain bg-softViolet bg-blend-multiply bg-no-repeat w-full opacity-90"
+          class="bg-stats-image-mobile bg-contain bg-softViolet bg-blend-multiply bg-no-repeat w-full opacity-90 rounded-xl h-[14.7rem] md:bg-cover md:h-auto md:rounded-tl-none md:rounded-bl-none"
         ></div>
       </div>
     </main>

@@ -12,23 +12,11 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap"
       rel="stylesheet"
     />
+    <!-- TAILWINDCSS & CUSTOM CSS -->
     <link rel="stylesheet" href="./develop/css/main.css" />
-
-    <!-- <style>
-      * {
-        border: 1px solid white;
-      }
-      body {
-        border: none;
-      }
-
-      div {
-        border: 1px solid hsl(0, 100%, 76%);
-      }
-    </style> -->
   </head>
   <body
-    class="bg-veryDarkBlue text-neutral font-inter min-h-screen flex items-center justify-center"
+    class="bg-veryDarkBlue text-neutral font-inter min-h-screen flex flex-col items-center justify-center"
   >
     <main>
       <!-- STATS COMPONENT -->
@@ -55,22 +43,22 @@
             class="flex flex-col items-center xl:flex-row xl:items-start xl:justify-between xl:px-20"
           >
             <!-- companies -->
-            <div class="mb-5">
+            <div class="mb-5 font-deca">
               <span class="font-bold text-2xl block text-center">10k+</span>
               <span class="uppercase text-xs text-mainParaWhite tracking-[2px]"
                 >companies</span
               >
             </div>
             <!-- templates -->
-            <div class="mb-5">
+            <div class="mb-5 font-deca">
               <span class="font-bold text-2xl block text-center">314</span>
               <span class="uppercase text-xs text-mainParaWhite tracking-[2px]"
                 >templates</span
               >
             </div>
             <!-- queries -->
-            <div class="mb-5 xl:mb-2">
-              <span class="font-bold text-2xl block text-center">12m+</span>
+            <div class="mb-5 xl:mb-2 font-deca">
+              <span class="font-bold text-2xl block text-center">12M+</span>
               <span class="uppercase text-xs text-mainParaWhite tracking-[2px]"
                 >queries</span
               >
@@ -79,11 +67,17 @@
         </div>
 
         <!-- IMAGE -->
-        <!-- an exact height was required here -->
         <div
           class="bg-stats-image-mobile bg-contain bg-softViolet bg-blend-multiply bg-no-repeat w-full opacity-90 rounded-xl h-[14.7rem] xl:bg-cover xl:h-auto xl:rounded-tl-none xl:rounded-bl-none"
         ></div>
       </div>
     </main>
+    <!-- FOOTER -->
+    <footer class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Daniel Arzanipour</a>.
+    </footer>
   </body>
 </html>

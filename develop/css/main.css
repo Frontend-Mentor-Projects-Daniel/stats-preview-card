@@ -679,7 +679,7 @@ video {
 }
 
 .bg-stats-image-mobile {
-  background-image: url('../develop/assets/images/image-header-mobile.jpg');
+  background-image: url('./develop/assets/images/image-header-mobile.jpg');
 }
 
 .bg-contain {
@@ -804,7 +804,7 @@ video {
   }
 
   .xl\:bg-stats-image-desktop {
-    background-image: url('../develop/assets/images/image-header-desktop.jpg');
+    background-image: url('./develop/assets/images/image-header-desktop.jpg');
   }
 
   .xl\:bg-cover {

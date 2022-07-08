@@ -14,9 +14,10 @@ module.exports = {
     },
     extend: {
       backgroundImage: (theme) => ({
-        'stats-image-mobile': "url('./assets/images/image-header-mobile.jpg')",
+        'stats-image-mobile':
+          "url('/develop/assets/images/image-header-mobile.jpg')",
         'stats-image-desktop':
-          "url('./assets/images/image-header-desktop.jpg')",
+          "url('/develop/assets/images/image-header-desktop.jpg')",
       }),
       colors: {
         veryDarkBlue: 'hsl(233, 47%, 7%)',
